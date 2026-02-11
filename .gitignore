@@ -1,0 +1,60 @@
+############################
+# General
+############################
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+############################
+# Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Build results
+############################
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+[Ww]in32/
+
+*.exe
+*.dll
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.appx
+*.appxupload
+
+############################
+# vcpkg
+############################
+vcpkg_installed/
+
+############################
+# CMake (if added later)
+############################
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+############################
+# Other tooling
+############################
+.cache/
+.clangd/
+.vscode/
+.idea/
+
